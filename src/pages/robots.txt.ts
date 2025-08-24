@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
                  //改成自己的站点网址,记得修改
-const SITE_URL = 'https://dh.zywe.de';
+const SITE_URL = 'https://china-zzk.xyz';
 const COMMON_RULES = {
   'Allow': ['/', '/icons/', '/images/'], 
   'Disallow': ['/xw_assets/', '/node_modules/', '/*?*','/~partytown/'], 
