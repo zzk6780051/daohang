@@ -50,24 +50,42 @@ export const sites = [
       category: 'opensource',
       icon: '/icons/github.webp',
       },
-  //个人其他站点      
+  //个人其他站点 
       {
-      id: 'zywede',
-      title: 'zywe.de',
-      description: '个人主页与知识集散地。作为技术爱好者，展示自己的全部项目、实践与分享的中心',
-      shortDesc: 'zywe个人官网',
-      url: 'https://zywe.de/',
-      category: 'Studying',
-      icon: '/icons/zywede.png',
-      },
-      {
-      id: 'dh_zywede',
+      id: 'china-zzk',
       title: 'nav.zywe.de',
       description: '专属导航页,这里汇聚了日常学习、开发与管理服务器所需的所有高效工具与资源链接，快速触达各项在线服务的便捷入口，确保学习与实践的流畅性。',
       shortDesc: '让每个人都有自己的网站式收藏夹',
-      url: 'https://dh.zywe.de/',
+      url: 'https://china-zzk.xyz/',
       category: 'Studying',
       icon: '/icons/dh-zywede.png',
+      },      
+      {
+      id: 'file-transfer',
+      title: '文件传输助手',
+      description: '便捷的在线文件传输服务，支持大文件快速上传与分享，提供稳定可靠的文件存储与传输解决方案。',
+      shortDesc: '在线文件传输工具。',
+      url: 'https://wj.china-zzk.xyz/',
+      category: 'Studying',
+      icon: '/icons/category/Studying.svg',
+      },
+      {
+      id: 'vpn-auto-sign',
+      title: 'VPN自动签到',
+      description: '自动化VPN服务签到系统，帮助用户轻松管理订阅，确保服务持续可用，提升网络访问稳定性与安全性。',
+      shortDesc: 'VPN服务自动化工具。',
+      url: 'https://ikuuu.china-zzk.xyz/',
+      category: 'Studying',
+      icon: '/icons/category/Studying.svg',
+      },
+      {
+      id: 'email',
+      title: '邮箱',
+      description: '私人电子邮件服务，提供安全可靠的邮件收发功能，保护通信隐私，支持多设备同步与高效邮件管理。',
+      shortDesc: '私人电子邮件服务。',
+      url: 'https://mail.china-zzk.xyz/',
+      category: 'Studying',
+      icon: '/icons/category/Studying.svg',
       },
       // pages      
       {
@@ -159,4 +177,3 @@ function escapeHtml(str) {
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#039;');
 }
-
